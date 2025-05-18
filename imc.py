@@ -1,3 +1,4 @@
+#Esta validación es para solicitar solo numeros.
 try:
     import sys
     import math
@@ -41,4 +42,4 @@ try:
         print(f"Su IMC es {IMC:.2f}. \nLa clasificación OMS es Obesidad Grado III")
 
 except ValueError:
-    print("Error en el ingreso. \nPuedes ingrersar <python imc.py>, o \n <python imc.py [peso en Kg] [altura en cm]")
+    print("Has ingresado datos que no son numéricos. \nPara calcular tu IMC, puedes ingrersar <python imc.py>, o \n <python imc.py [peso en Kg] [altura en cm]")
